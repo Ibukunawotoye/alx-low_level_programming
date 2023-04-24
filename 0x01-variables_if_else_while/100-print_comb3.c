@@ -15,7 +15,7 @@ int main(void)
 	if (dp != la)
 	{
 	putchar(la);
-	puthcar(dp);
+	putchar(dp);
 	if (la == 8 && dp == 9)
 	continue;
 	putchar(',');
