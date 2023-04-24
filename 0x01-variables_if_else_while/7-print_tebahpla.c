@@ -9,7 +9,7 @@ int main(void)
 	char ib;
 
 	for (ib = 'z'; ib >= 'a'; ib--)
-		puthcar(ib);
+		putchar(ib);
 
 	putchar("\n");
 
