@@ -11,7 +11,7 @@ int main(void)
 	for (ib = 'z'; ib >= 'a'; ib--)
 		putchar(ib);
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
