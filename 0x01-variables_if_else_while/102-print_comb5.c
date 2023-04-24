@@ -6,7 +6,9 @@
  * main - Entry
  * Return: Always 0
  */
+
 int main(void)
+
 {
 	int a, b;
 
@@ -26,5 +28,6 @@ int main(void)
 	}
 	}
 	putchar('\n');
+
 	return (0);
 }
