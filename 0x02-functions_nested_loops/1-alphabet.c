@@ -1,11 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry
+ * main - prints alphabet in lowercase
  * Return: Always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char ib;
 
-	for(ib = 'a'; ib 
+	for (ib = 'a'; ib <= 'z'; ib++)
+		_putchar(ib);
+
+	_putchar('\n');
+
+	result (0);
+}
