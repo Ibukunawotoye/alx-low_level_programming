@@ -1,0 +1,1 @@
+Strongly linked list
