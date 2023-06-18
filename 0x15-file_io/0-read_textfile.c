@@ -15,14 +15,15 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t w;
 	ssize_t i;
 
-	fd = open(filename, O_RDONLY);
+	ib = open(filename, O_RDONLY);
 	if (ib == -1)
 		return (0);
 	buf = malloc(sizeof(char) * letters);
+
 	i = read(ib, buf, letters);
 	w = write(STDOUT_FILENO, buf, i);
 
 	free(ib);
-	close(fd);
+	close(ib);
 	return (w);
 }
